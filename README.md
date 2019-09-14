@@ -11,7 +11,7 @@ http://www.bbslink.net/sysop/solar.php
 
 ### Changelog
                                                                    
-v1.0.0 (3 Feb 2018) by k1ds3ns4t10n of -X-caliber BBS                                
+v1.0.0 (14 Sep 2019) by k1ds3ns4t10n of -X-caliber BBS                                
                                                                     
 This is public domain software. Use at your own risk.                                              
 **************************************************************************
