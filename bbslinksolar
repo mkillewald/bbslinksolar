@@ -57,7 +57,6 @@ g.timeout          = 20 /* API http request timeout in seconds */
 
 /* ok to change these messages, but do not add ANSI or MCI codes. */
 s.retrieving       = 'Retrieving Data'
-s.sending          = 'Sending Data'
 s.reqTimedOut      = 'Request timed out, please try again later.'
 s.cancelled        = 'Request Cancelled'
 s.escToCancel      = '(ESC to cancel)'
