@@ -132,7 +132,7 @@ fetchWebRequest: procedure expose se tr mg esc ver s. g. resultArr.
     resultArr.1=""
     
     /* make web request */
-    httpcmd = 'run >nil: http_get "'uri'" >'filePath
+    httpcmd = 'run >nil: http_get -u "'userAgent'" "'uri'" >'filePath
     address command httpcmd
     
     call time('r')
@@ -211,11 +211,11 @@ getSolar: procedure expose se tr mg esc ver s. g. resultArr.
   /* Delete the last results file in case it wasn't deleted last time */
   call deleteFile(filename)
 
-  /* Fetch the wall from BBSLink */
+  /* Fetch the solar data from BBSLink */
   rcd="http://games.bbslink.net/solar.php?action=show"
   call fetchWebRequest(rcd, filename, 0)
   
-  /* display wall */
+  /* display solar data */
   if resultArr.0 > 0 then do
     cls
     do i=1 to resultArr.0
