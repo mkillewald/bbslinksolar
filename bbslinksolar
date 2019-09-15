@@ -1,5 +1,5 @@
 /**************************************************************************\
-$VER: BBSLink Solar, v1.0.0 (Sep-14-2019) by k1ds3ns4t10n of -X-caliber BBS
+$VER: BBSLink Solar, v1.0.1 (Sep-14-2019) by k1ds3ns4t10n of -X-caliber BBS
 \**************************************************************************/
 options results;signal on SYNTAX;signal on ERROR;signal on IOERR
 a=sourceline(2);parse var a . " " title ", " ver " (" vdate ") by " author " " .
@@ -17,6 +17,9 @@ changewhere "BBSLink Solar"
 /*    Solar and Terrestrial data service                                  */
 /*                                                                        */
 /*  Changelog:                                                            */
+/*    v1.0.1 (           ) by k1ds3ns4t10n of -X-caliber BBS              */
+/*     -                                                                  */
+/*                                                                        */
 /*    v1.0.0 (14 Sep 2019) by k1ds3ns4t10n of -X-caliber BBS              */
 /*                                                                        */
 /*  Use at your own risk.                                                 */
