@@ -1,4 +1,8 @@
-# C-Net BBSLink Solar 1.0.0 
+### NOTE: This is an unstable development branch which has not yet been released, and is not guaranteed to work. Do not use this version, you have been warned. 
+
+### For the stable release verision, return to branch [master](https://github.com/mkillewald/bbslinksolar/tree/master), or download the [latest release](https://github.com/mkillewald/bbslinksolar/releases/latest)
+
+# C-Net BBSLink Solar 1.0.1 (devel version)
 
 A C-Net Pfile written in ARexx used to display solar and terrestrial data from N0NBH.com on a C-Net Amiga BBS 
 http://www.bbslink.net/sysop/solar.php
